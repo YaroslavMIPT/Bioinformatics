@@ -1,1 +1,1 @@
-# Bioinformatics
+Student: Иванов Иван
