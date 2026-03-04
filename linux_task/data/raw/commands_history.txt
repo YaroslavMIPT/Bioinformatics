@@ -1,0 +1,60 @@
+    1  cd
+    2  cd
+    3  git clone https://github.com/YaroslavMIPT/Bioinformatics.git
+    4  cd bioinformatics
+    5  echo "# Bioinformatics Homework" > README.md
+    6  echo "Student: Иванов Иван" >> README.md
+    7  git add README.md
+    8  git commit -m "Init"
+    9  [200~git config --global user.email "you@example.com"
+   10    git config --global user.name YaroslavMIPT
+   11  git config --global user.email "you@example.com"
+   12    git config --global user.name Yaroslav
+   13  [200~echo "# Bioinformatics Homework" > README.md
+   14  echo "Student: Иванов Иван" >> README.md
+   15  git add README.md
+   16  git commit -m "Init"
+   17  echo "Student: Иванов Иван" >> README.md
+   18  git commit -m "Init"
+   19  git push
+   20  mkdir -p linux_task/data/raw
+   21  cd linux_task/data/raw
+   22  touch sample1.tsv sample2.tsv sample3.tsv
+   23  echo -e "GeneID\tExpression_Value" > sample1.tsv
+   24  cat sample1.tsv
+   25  cd ~/bioinformatics
+   26  git add linux_task/data/raw/
+   27  git commit -m "Create raw data structure"
+   28  cd linux_task/data/raw
+   29  cat > sequencing_summary.txt <<EOF
+date: 2026-02-18
+sample: sample1
+platform: Illumina
+read_length: 150
+total_reads: 1024
+sample: sample2
+total_reads: 2048
+sample: sample3
+total_reads: 4096
+EOF
+
+   30  grep "sample" sequencing_summary.txt > samples_list.txt
+   31  count=$(grep -c "sample" sequencing_summary.txt)
+   32  echo "Total samples found: $count" >> samples_list.txt
+   33  tail -5 samples_list.txt
+   34  git add sequencing_summary.txt samples_list.txt
+   35  git commit -m "Add sample list and count"
+   36  git checkout -b git-practice
+   37  cd ~/bioinformatics_hw
+   38  echo "This is very important data." > important_note.txt
+   39  git add important_note.txt
+   40  git commit -m "Add important note"
+   41  rm important_note.txt
+   42  git status
+   43  git restore important_note.txt
+   44  ls
+   45  cat important_note.txt
+   46  echo "git restore important_note.txt" > git_command.txt
+   47  git add git_command.txt
+   48  git commit -m "Restore deleted file"
+   49  history > commands_history.txt
