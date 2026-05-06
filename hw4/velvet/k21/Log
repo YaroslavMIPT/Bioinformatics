@@ -1,0 +1,21 @@
+Tue May  5 20:46:30 2026
+ /home/STUDY/FBMF/bioinformatics/soft/velvet/velveth /home/STUDY/FBMF/studfbmf02_13/hw/hw4/velvet/k21 21 -fastq -shortPaired /home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_de_novo/7_S4_L001_R1_001.fastq /home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_de_novo/7_S4_L001_R2_001.fastq
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Tue May  5 20:46:31 2026
+ /home/STUDY/FBMF/bioinformatics/soft/velvet/velvetg /home/STUDY/FBMF/studfbmf02_13/hw/hw4/velvet/k21 -ins_length 300
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Final graph has 9534 nodes and n50 of 36, max 233, total 132871, using 0/133336 reads

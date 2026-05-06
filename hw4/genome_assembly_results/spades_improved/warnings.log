@@ -1,0 +1,7 @@
+
+=== Error correction and assembling warnings:
+ * 0:00:01.006     2M / 52M   WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 2
+ * 0:00:00.335     2M / 36M   WARN    General                 (kmer_coverage_model.cpp   : 219)   Too many erroneous kmers, the estimates might be unreliable
+ * 0:00:00.627     2M / 36M   WARN    General                 (kmer_coverage_model.cpp   : 367)   Failed to determine erroneous kmer threshold. Threshold set to: 10
+ * 0:00:01.023     2M / 45M   WARN    General                 (pair_info_count.cpp       : 203)   Estimated mean insert size 128.186 is very small compared to read length 151
+======= Warnings saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades_improved/warnings.log

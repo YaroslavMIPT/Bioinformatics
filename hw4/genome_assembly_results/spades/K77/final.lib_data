@@ -1,0 +1,70 @@
+œ ---
+max read length: 151
+nomerge max read length: 151
+average read length: 70.3532
+average coverage: 90.0325
+libraries:
+  - type:            paired-end
+    number:          1
+    orientation:     fr
+    left reads:
+      - '/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades/corrected/7_S4_L001_R1_00100.0_0.cor.fastq.gz'
+    right reads:
+      - '/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades/corrected/7_S4_L001_R2_00100.0_0.cor.fastq.gz'
+    single reads:
+      - '/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades/corrected/7_S4_L001_R_unpaired00.0_0.cor.fastq.gz'
+    data:
+      unmerged read length: 151
+      merged read length: 0
+      insert size mean: 108.644
+      insert size deviation: 28.0569
+      insert size left quantile: 81
+      insert size right quantile: 148
+      insert size median: 100
+      insert size mad: 21
+      insert size distribution: { 78: 233, 79: 246, 80: 250, 81: 207, 82: 247, 
+                                  83: 209, 84: 194, 85: 223, 86: 209, 87: 220, 
+                                  88: 203, 89: 207, 90: 209, 91: 188, 92: 195, 
+                                  93: 131, 94: 146, 95: 204, 96: 142, 97: 167, 
+                                  98: 125, 99: 127, 100: 146, 101: 109, 
+                                  102: 133, 103: 148, 104: 120, 105: 109, 
+                                  106: 120, 107: 112, 108: 119, 109: 82, 
+                                  110: 94, 111: 123, 112: 113, 113: 86, 
+                                  114: 86, 115: 86, 116: 90, 117: 68, 118: 77, 
+                                  119: 102, 120: 86, 121: 85, 122: 102, 
+                                  123: 72, 124: 60, 125: 64, 126: 84, 127: 87, 
+                                  128: 62, 129: 46, 130: 47, 131: 41, 132: 45, 
+                                  133: 54, 134: 28, 135: 77, 136: 32, 137: 69, 
+                                  138: 45, 139: 56, 140: 41, 141: 36, 142: 31, 
+                                  143: 26, 144: 31, 145: 45, 146: 44, 147: 56, 
+                                  148: 24, 149: 23, 150: 27, 151: 20, 152: 39, 
+                                  153: 32, 154: 32, 155: 27, 156: 28, 157: 24, 
+                                  158: 22, 159: 28, 160: 31, 161: 21, 162: 32, 
+                                  163: 10, 164: 8, 165: 15, 166: 19, 167: 19, 
+                                  168: 14, 169: 17, 170: 22, 171: 12, 172: 20, 
+                                  173: 21, 174: 13, 175: 12, 176: 6, 177: 13, 
+                                  178: 9, 179: 14, 180: 8, 181: 16, 182: 10, 
+                                  183: 12, 184: 7, 185: 9, 186: 6, 187: 3, 
+                                  188: 6, 189: 4, 190: 6, 191: 7, 192: 3, 
+                                  193: 8, 194: 6, 195: 1, 196: 2, 197: 1, 
+                                  198: 6, 199: 2, 200: 8, 201: 5, 202: 3, 
+                                  203: 5, 204: 6, 205: 2, 207: 3, 209: 4, 
+                                  210: 6, 211: 5, 212: 6, 213: 2, 215: 1, 
+                                  217: 3, 218: 2, 220: 4, 221: 4, 222: 3, 
+                                  223: 4, 224: 4, 225: 5, 228: 2, 231: 2, 
+                                  232: 1, 235: 1, 237: 2, 238: 2, 239: 1, 
+                                  242: 2, 243: 4, 244: 2, 245: 2, 246: 2, 
+                                  254: 1 }
+      pi threshold:    0
+      binary reads info:
+        binary converted: true
+        bin reads info file: '/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades/.bin_reads/INFO_0'
+        paired read prefix: '/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades/.bin_reads/paired_0'
+        merged read prefix: '/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades/.bin_reads/merged_0'
+        single read prefix: '/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades/.bin_reads/single_0'
+        chunk num:       4
+      single reads mapped: false
+      library index:   0
+      number of reads: 124936
+      total nucleotides: 8789646
+...

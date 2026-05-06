@@ -1,0 +1,86 @@
+/home/STUDY/FBMF/bioinformatics/soft/bin/quast.py -o /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report -m 0 --threads 1 /home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades/scaffolds.fasta /home/STUDY/FBMF/studfbmf02_13/hw/hw4/velvet/k11/contigs.fa /home/STUDY/FBMF/studfbmf02_13/hw/hw4/velvet/k21/contigs.fa /home/STUDY/FBMF/studfbmf02_13/hw/hw4/velvet/k31/contigs.fa
+
+Version: 5.3.0
+
+System information:
+  OS: Linux-5.14.0-611.47.1.el9_7.x86_64-x86_64-with-glibc2.34 (linux_64)
+  Python version: 3.13.9
+  CPUs number: 4
+
+Started: 2026-05-05 23:56:25
+
+Logging to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/quast.log
+
+CWD: /home/STUDY/FBMF/studfbmf02_13/hw/hw4
+Main parameters: 
+  MODE: default, threads: 1, min contig length: 0, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  1  /home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades/scaffolds.fasta ==> scaffolds
+  2  /home/STUDY/FBMF/studfbmf02_13/hw/hw4/velvet/k11/contigs.fa ==> k11_contigs
+  3  /home/STUDY/FBMF/studfbmf02_13/hw/hw4/velvet/k21/contigs.fa ==> k21_contigs
+  4  /home/STUDY/FBMF/studfbmf02_13/hw/hw4/velvet/k31/contigs.fa ==> k31_contigs
+
+2026-05-05 23:56:26
+Running Basic statistics processor...
+  Contig files: 
+    1  scaffolds
+    2  k11_contigs
+    3  k21_contigs
+    4  k31_contigs
+  Calculating N50 and L50...
+    1  scaffolds, N50 = 440, L50 = 12, auN = 484.1, Total length = 15064, GC % = 45.47, # N's per 100 kbp =  0.00
+    2  k11_contigs, N50 = 25, L50 = 1304, auN = 26.9, Total length = 79010, GC % = 49.49, # N's per 100 kbp =  0.00
+    3  k21_contigs, N50 = 67, L50 = 702, auN = 77.4, Total length = 133813, GC % = 47.33, # N's per 100 kbp =  0.00
+    4  k31_contigs, N50 = 104, L50 = 185, auN = 114.7, Total length = 51988, GC % = 47.88, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/basic_stats/GC_content_plot.pdf
+  Drawing scaffolds GC content plot...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/basic_stats/scaffolds_GC_content_plot.pdf
+  Drawing k11_contigs GC content plot...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/basic_stats/k11_contigs_GC_content_plot.pdf
+  Drawing k21_contigs GC content plot...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/basic_stats/k21_contigs_GC_content_plot.pdf
+  Drawing k31_contigs GC content plot...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/basic_stats/k31_contigs_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 25x)...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/basic_stats/scaffolds_coverage_histogram.pdf
+  Drawing k11_contigs coverage histogram (bin size: 1x)...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/basic_stats/k11_contigs_coverage_histogram.pdf
+  Drawing k21_contigs coverage histogram (bin size: 1x)...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/basic_stats/k21_contigs_coverage_histogram.pdf
+  Drawing k31_contigs coverage histogram (bin size: 1x)...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/basic_stats/k31_contigs_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-05-05 23:56:28
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2026-05-05 23:56:29
+RESULTS:
+  Text versions of total report are saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/report.html
+  PDF version (tables and plots) is saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/report.pdf
+  Icarus (contig browser) is saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/icarus.html
+  Log is saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/quast_report/quast.log
+
+Finished: 2026-05-05 23:56:29
+Elapsed time: 0:00:03.560738
+NOTICEs: 1; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

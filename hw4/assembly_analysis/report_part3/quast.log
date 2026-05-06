@@ -1,0 +1,86 @@
+/home/STUDY/FBMF/bioinformatics/soft/bin/quast.py -o /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3 -m 0 --threads 1 /home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades/scaffolds.fasta /home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades_improved/scaffolds.fasta /home/STUDY/FBMF/studfbmf02_13/hw/hw4/velvet/k31/contigs.fa /home/STUDY/FBMF/studfbmf02_13/hw/hw4/velvet/k31_improved/contigs.fa
+
+Version: 5.3.0
+
+System information:
+  OS: Linux-5.14.0-611.47.1.el9_7.x86_64-x86_64-with-glibc2.34 (linux_64)
+  Python version: 3.13.9
+  CPUs number: 4
+
+Started: 2026-05-06 00:20:25
+
+Logging to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/quast.log
+
+CWD: /home/STUDY/FBMF/studfbmf02_13/hw/hw4
+Main parameters: 
+  MODE: default, threads: 1, min contig length: 0, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  1  /home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades/scaffolds.fasta ==> spades_scaffolds
+  2  /home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades_improved/scaffolds.fasta ==> spades_improved_scaffolds
+  3  /home/STUDY/FBMF/studfbmf02_13/hw/hw4/velvet/k31/contigs.fa ==> k31_contigs
+  4  /home/STUDY/FBMF/studfbmf02_13/hw/hw4/velvet/k31_improved/contigs.fa ==> k31_improved_contigs
+
+2026-05-06 00:20:25
+Running Basic statistics processor...
+  Contig files: 
+    1  spades_scaffolds
+    2  spades_improved_scaffolds
+    3  k31_contigs
+    4  k31_improved_contigs
+  Calculating N50 and L50...
+    1  spades_scaffolds, N50 = 440, L50 = 12, auN = 484.1, Total length = 15064, GC % = 45.47, # N's per 100 kbp =  0.00
+    2  spades_improved_scaffolds, N50 = 611, L50 = 6, auN = 633.4, Total length = 9910, GC % = 45.30, # N's per 100 kbp =  0.00
+    3  k31_contigs, N50 = 104, L50 = 185, auN = 114.7, Total length = 51988, GC % = 47.88, # N's per 100 kbp =  0.00
+    4  k31_improved_contigs, N50 = 104, L50 = 185, auN = 114.7, Total length = 51988, GC % = 47.88, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/basic_stats/GC_content_plot.pdf
+  Drawing spades_scaffolds GC content plot...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/basic_stats/spades_scaffolds_GC_content_plot.pdf
+  Drawing spades_improved_scaffolds GC content plot...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/basic_stats/spades_improved_scaffolds_GC_content_plot.pdf
+  Drawing k31_contigs GC content plot...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/basic_stats/k31_contigs_GC_content_plot.pdf
+  Drawing k31_improved_contigs GC content plot...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/basic_stats/k31_improved_contigs_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/basic_stats/coverage_histogram.pdf
+  Drawing spades_scaffolds coverage histogram (bin size: 25x)...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/basic_stats/spades_scaffolds_coverage_histogram.pdf
+  Drawing spades_improved_scaffolds coverage histogram (bin size: 21x)...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/basic_stats/spades_improved_scaffolds_coverage_histogram.pdf
+  Drawing k31_contigs coverage histogram (bin size: 1x)...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/basic_stats/k31_contigs_coverage_histogram.pdf
+  Drawing k31_improved_contigs coverage histogram (bin size: 1x)...
+    saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/basic_stats/k31_improved_contigs_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-05-06 00:20:27
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2026-05-06 00:20:28
+RESULTS:
+  Text versions of total report are saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/report.html
+  PDF version (tables and plots) is saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/report.pdf
+  Icarus (contig browser) is saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/icarus.html
+  Log is saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/assembly_analysis/report_part3/quast.log
+
+Finished: 2026-05-06 00:20:28
+Elapsed time: 0:00:02.883042
+NOTICEs: 1; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

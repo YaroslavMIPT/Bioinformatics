@@ -1,0 +1,7 @@
+"bwa": "/home/STUDY/FBMF/bioinformatics/soft/SPAdes-4.2.0-Linux/bin/spades-bwa"
+"dataset": "/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades_improved/input_dataset.yaml"
+"log_filename": "log.properties"
+"max_nthreads": !!int "16"
+"output_dir": "/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades_improved/mismatch_corrector/scaffolds"
+"strategy": "mapped_squared"
+"work_dir": "/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades_improved/tmp/corrector_4p1mrd6b"

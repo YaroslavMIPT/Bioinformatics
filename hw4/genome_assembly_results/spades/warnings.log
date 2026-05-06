@@ -1,0 +1,5 @@
+
+=== Error correction and assembling warnings:
+ * 0:00:00.991     2M / 40M   WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 2
+ * 0:00:01.451     2M / 96M   WARN    General                 (pair_info_count.cpp       : 203)   Estimated mean insert size 108.644 is very small compared to read length 151
+======= Warnings saved to /home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades/warnings.log

@@ -1,0 +1,38 @@
+˜---
+max read length: 151
+nomerge max read length: 151
+average read length: 70.3532
+average coverage: 128.797
+libraries:
+  - type:            paired-end
+    number:          1
+    orientation:     fr
+    left reads:
+      - '/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades_improved/corrected/7_S4_L001_R1_00100.0_0.cor.fastq.gz'
+    right reads:
+      - '/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades_improved/corrected/7_S4_L001_R2_00100.0_0.cor.fastq.gz'
+    single reads:
+      - '/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades_improved/corrected/7_S4_L001_R_unpaired00.0_0.cor.fastq.gz'
+    data:
+      unmerged read length: 151
+      merged read length: 0
+      insert size mean: 0
+      insert size deviation: 0
+      insert size left quantile: 0
+      insert size right quantile: 0
+      insert size median: 0
+      insert size mad: 0
+      insert size distribution: {  }
+      pi threshold:    0
+      binary reads info:
+        binary converted: true
+        bin reads info file: '/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades_improved/.bin_reads/INFO_0'
+        paired read prefix: '/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades_improved/.bin_reads/paired_0'
+        merged read prefix: '/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades_improved/.bin_reads/merged_0'
+        single read prefix: '/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_assembly_results/spades_improved/.bin_reads/single_0'
+        chunk num:       1
+      single reads mapped: false
+      library index:   0
+      number of reads: 124936
+      total nucleotides: 8789646
+...

@@ -1,0 +1,7 @@
+- "left reads":
+  - "/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_de_novo/7_S4_L001_R1_001.fastq"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/home/STUDY/FBMF/studfbmf02_13/hw/hw4/genome_de_novo/7_S4_L001_R2_001.fastq"
+  "type": "paired-end"

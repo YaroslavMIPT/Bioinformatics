@@ -1,0 +1,23 @@
+Assembly                    scaffolds  k11_contigs  k21_contigs  k31_contigs
+# contigs (>= 0 bp)         49         3073         2060         541        
+# contigs (>= 1000 bp)      1          0            0            0          
+# contigs (>= 5000 bp)      0          0            0            0          
+# contigs (>= 10000 bp)     0          0            0            0          
+# contigs (>= 25000 bp)     0          0            0            0          
+# contigs (>= 50000 bp)     0          0            0            0          
+Total length (>= 0 bp)      15064      79010        133813       51988      
+Total length (>= 1000 bp)   1069       0            0            0          
+Total length (>= 5000 bp)   0          0            0            0          
+Total length (>= 10000 bp)  0          0            0            0          
+Total length (>= 25000 bp)  0          0            0            0          
+Total length (>= 50000 bp)  0          0            0            0          
+# contigs                   49         3073         2060         541        
+Largest contig              1069       63           253          414        
+Total length                15064      79010        133813       51988      
+GC (%)                      45.47      49.49        47.33        47.88      
+N50                         440        25           67           104        
+N90                         148        21           41           61         
+auN                         484.1      26.9         77.4         114.7      
+L50                         12         1304         702          185        
+L90                         37         2697         1734         456        
+# N's per 100 kbp           0.00       0.00         0.00         0.00       
