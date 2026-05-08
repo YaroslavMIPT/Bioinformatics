@@ -1,0 +1,3 @@
+Обработка образца: *
+/var/spool/slurm/job67534/slurm_script: line 23: fastp: command not found
+[2026-05-08T18:54:12.274] error: private-tmpdir: /tmp/67534.batch.0 nftw error No such file or directory

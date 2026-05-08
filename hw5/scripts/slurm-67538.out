@@ -1,0 +1,103 @@
+Обработка образца: ERR14230582_Illumina_HiSeq_4000_sequencing
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 576623
+total bases: 23551851
+Q20 bases: 23457888(99.601%)
+Q30 bases: 23272656(98.8146%)
+Q40 bases: 19618121(83.2976%)
+
+Read1 after filtering:
+total reads: 396126
+total bases: 17614565
+Q20 bases: 17560626(99.6938%)
+Q30 bases: 17431675(98.9617%)
+Q40 bases: 14845089(84.2774%)
+
+Filtering result:
+reads passed filter: 396126
+reads failed due to low quality: 4
+reads failed due to too many N: 0
+reads failed due to too short: 180493
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 47.7003%
+
+JSON report: fastp.json
+HTML report: /home/STUDY/FBMF/studfbmf02_13/hw/hw5/results/trimmed/ERR14230582_Illumina_HiSeq_4000_sequencing_fastp.html
+
+/home/STUDY/FBMF/studfbmf02_13/hw/hw5/soft/fastp -i /home/STUDY/FBMF/studfbmf02_13/hw/hw5/data/ERR14230582_Illumina_HiSeq_4000_sequencing.fastq.gz -o /home/STUDY/FBMF/studfbmf02_13/hw/hw5/results/trimmed/ERR14230582_Illumina_HiSeq_4000_sequencing_trimmed.fastq.gz --cut_right --cut_right_window_size 5 --cut_right_mean_quality 20 --length_required 36 --thread 4 -h /home/STUDY/FBMF/studfbmf02_13/hw/hw5/results/trimmed/ERR14230582_Illumina_HiSeq_4000_sequencing_fastp.html 
+fastp v1.3.3, time used: 3 seconds
+Обработка образца: ERR14230586_Illumina_HiSeq_4000_sequencing
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 1826305
+total bases: 81328414
+Q20 bases: 81064864(99.6759%)
+Q30 bases: 80514953(98.9998%)
+Q40 bases: 68939989(84.7674%)
+
+Read1 after filtering:
+total reads: 1450141
+total bases: 68851179
+Q20 bases: 68693541(99.771%)
+Q30 bases: 68280370(99.171%)
+Q40 bases: 58962688(85.6379%)
+
+Filtering result:
+reads passed filter: 1450141
+reads failed due to low quality: 30
+reads failed due to too many N: 0
+reads failed due to too short: 376134
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 22.485%
+
+JSON report: fastp.json
+HTML report: /home/STUDY/FBMF/studfbmf02_13/hw/hw5/results/trimmed/ERR14230586_Illumina_HiSeq_4000_sequencing_fastp.html
+
+/home/STUDY/FBMF/studfbmf02_13/hw/hw5/soft/fastp -i /home/STUDY/FBMF/studfbmf02_13/hw/hw5/data/ERR14230586_Illumina_HiSeq_4000_sequencing.fastq.gz -o /home/STUDY/FBMF/studfbmf02_13/hw/hw5/results/trimmed/ERR14230586_Illumina_HiSeq_4000_sequencing_trimmed.fastq.gz --cut_right --cut_right_window_size 5 --cut_right_mean_quality 20 --length_required 36 --thread 4 -h /home/STUDY/FBMF/studfbmf02_13/hw/hw5/results/trimmed/ERR14230586_Illumina_HiSeq_4000_sequencing_fastp.html 
+fastp v1.3.3, time used: 3 seconds
+Обработка образца: ERR14230595_Illumina_HiSeq_4000_sequencing
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 1128748
+total bases: 46234139
+Q20 bases: 46052648(99.6075%)
+Q30 bases: 45718707(98.8852%)
+Q40 bases: 38610956(83.5118%)
+
+Read1 after filtering:
+total reads: 791927
+total bases: 35129397
+Q20 bases: 35029423(99.7154%)
+Q30 bases: 34795263(99.0488%)
+Q40 bases: 29668932(84.4561%)
+
+Filtering result:
+reads passed filter: 791927
+reads failed due to low quality: 13
+reads failed due to too many N: 0
+reads failed due to too short: 336808
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 49.4878%
+
+JSON report: fastp.json
+HTML report: /home/STUDY/FBMF/studfbmf02_13/hw/hw5/results/trimmed/ERR14230595_Illumina_HiSeq_4000_sequencing_fastp.html
+
+/home/STUDY/FBMF/studfbmf02_13/hw/hw5/soft/fastp -i /home/STUDY/FBMF/studfbmf02_13/hw/hw5/data/ERR14230595_Illumina_HiSeq_4000_sequencing.fastq.gz -o /home/STUDY/FBMF/studfbmf02_13/hw/hw5/results/trimmed/ERR14230595_Illumina_HiSeq_4000_sequencing_trimmed.fastq.gz --cut_right --cut_right_window_size 5 --cut_right_mean_quality 20 --length_required 36 --thread 4 -h /home/STUDY/FBMF/studfbmf02_13/hw/hw5/results/trimmed/ERR14230595_Illumina_HiSeq_4000_sequencing_fastp.html 
+fastp v1.3.3, time used: 3 seconds
+[2026-05-08T20:08:07.814] error: private-tmpdir: /tmp/67538.batch.0 nftw error No such file or directory

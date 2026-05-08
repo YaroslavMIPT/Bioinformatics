@@ -1,0 +1,11 @@
+Запуск FastQC для очищенных данных...
+Can't locate FindBin.pm in @INC (you may need to install the FindBin module) (@INC contains: /usr/local/lib64/perl5/5.32 /usr/local/share/perl5/5.32 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5) at /home/STUDY/FBMF/bioinformatics/anaconda3/bin/fastqc line 4.
+BEGIN failed--compilation aborted at /home/STUDY/FBMF/bioinformatics/anaconda3/bin/fastqc line 4.
+Запуск MultiQC...
+
+/// MultiQC 🔍 v1.34
+
+       file_search | Search path: /home/STUDY/FBMF/studfbmf02_13/hw/hw5/results/qc_after
+
+           multiqc | No analysis results found. Cleaning up…
+[2026-05-08T20:11:02.097] error: private-tmpdir: /tmp/67539.batch.0 nftw error No such file or directory
